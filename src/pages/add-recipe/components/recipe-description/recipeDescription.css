@@ -1,0 +1,15 @@
+.recipe-description{
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    width: 80%;
+    height: 70vh;
+    text-align: center;
+}
+.recipe-description textarea{
+    resize: none;
+    width: 80%;
+    height: 100%;
+    border-radius: 7px;
+    font-size: 14px;
+}

@@ -1,0 +1,38 @@
+.recipecHolder{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 80%;
+    height: 100vh;
+    text-align: center;
+}
+.recipeContainer {
+    width: 270px;
+    height: 300px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    overflow-y: auto;
+}
+.recipeContainer img{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    width: 100%;
+    height: 60%;
+}
+.recipeContainer h1{
+    font-size: 27px;
+}
+
+.recipeContainer button{
+    border: none;
+    border-radius: 7px;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+.recipeContainer button:hover{
+    background-color: rgb(206, 205, 246);
+}
+

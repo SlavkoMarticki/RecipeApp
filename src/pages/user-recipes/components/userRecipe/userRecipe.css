@@ -1,0 +1,37 @@
+.recipes-holder{
+    position: absolute;
+    top: 19%;
+    left: 30%;
+    width: 60%;
+    height: 80vh;
+    margin: 20%, 0px 0px 30%;
+}
+.recipes-holder .recipe{
+    border-bottom: 1px solid rgb(146, 146, 146);
+    display: flex;
+    margin-top: 15px;
+}
+.recipes-holder .recipe h1{
+    margin: 0px;
+    font-size: 20px;
+    flex-grow: 1;
+}
+.recipes-holder .recipe .buttons{
+    flex-grow: 1;
+}
+.recipes-holder .recipe .buttons button{
+    float: right;
+    background-color: rgb(69, 69, 159);
+    border: none;
+    width: 90px;
+    height: 40px;
+    margin: 0px 5px 5px 5px ;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.recipes-holder .recipe .buttons  .delete{
+    background-color: rgb(172, 1, 1);
+}
+

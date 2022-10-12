@@ -1,0 +1,33 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.landingPageHolder{
+    position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);
+    border-radius: 20px;
+    width: 50%;
+    height: 55vh;
+    text-align: center;
+    background: rgb(193,164,225);
+    background: linear-gradient(148deg, rgb(167, 148, 188) 7%, rgba(55, 3, 113, 3.443) 80%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 50px;
+}
+
+.landingPageHolder h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+.landingPageHolder button{
+    width: 160px;
+    height: 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;
+    background-color: white;
+    cursor: pointer;
+}
+

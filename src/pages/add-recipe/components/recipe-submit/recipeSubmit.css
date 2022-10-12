@@ -1,0 +1,17 @@
+.recipe-submit{
+    position: absolute;
+    right: 8%;
+    bottom: 5%;
+}
+.recipe-submit button{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(69, 69, 159);
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 7px ;
+}
+.recipe-submit button:hover{
+    background-color: rgb(60, 60, 137);
+}

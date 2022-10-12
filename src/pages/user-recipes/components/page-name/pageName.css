@@ -1,0 +1,8 @@
+.pageName{
+    position: absolute;
+    top: 2%;
+    left: 30%
+}
+.pageName h1{
+    font-size: 25px;
+}

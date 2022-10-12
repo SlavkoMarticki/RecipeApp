@@ -1,0 +1,13 @@
+.recipe-name{
+    position: absolute;
+    top: 5%;
+    margin-left: 25%;
+}
+.recipe-name input{
+    border-radius: 7px;
+    border: 1px solid rgb(112, 112, 112);
+    margin-left: 10px;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+}

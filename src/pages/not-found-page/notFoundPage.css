@@ -1,0 +1,31 @@
+.message{
+    text-align: center;
+    font-size: 300px;
+    margin: 0px;
+}
+.description{
+    text-align: center;
+    margin: 0px;
+    font-size: 30px;
+}
+.button-holder{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.button-holder button{
+    margin: auto;
+    color: white;
+    background-color: rgb(3, 3, 198);
+
+    border: none;
+    width: 160px;
+    height: 50px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 19px;
+}
+.button-holder button:hover{
+    background-color: blue;
+
+}
